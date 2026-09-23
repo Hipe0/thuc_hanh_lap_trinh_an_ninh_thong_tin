@@ -70,4 +70,4 @@ Khi commit lại với các tên biến như `pwd` hoặc `db_pass`, kịch bả
 ![Minh chứng Fix 2](./images/fix_2.png)
 
 ---
-*Lưu ý: Các hình ảnh minh chứng được lưu trong thư mục `images/` đính kèm theo báo cáo này.*
+
