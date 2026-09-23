@@ -1,15 +1,18 @@
-TRƯỜNG ĐẠI HỌC  CÔNG NGHỆ TP HCM
-KHOA CÔNG NGHỆ THÔNG TIN
-Môn: An toàn web và cơ sở dữ liệu
+**TRƯỜNG ĐẠI HỌC CÔNG NGHỆ TP HCM**  
+**KHOA CÔNG NGHỆ THÔNG TIN**  
+**Môn:** An toàn web và cơ sở dữ liệu  
 
----------------------------------------------------------------------
-BÁO CÁO TUẦN 01
-Họ Và Tên: Hồ Đắc Hiệp 				            
-MSSV: 2380600634
-Lớp: 23DATA1
+---
 
-PHẦN BÀI LÀM
-# 🔒 SecureValidator Lab — Báo Cáo Phân Tích Lỗ Hổng Bảo Mật
+# BÁO CÁO TUẦN 01
+
+**Họ Và Tên:** Hồ Đắc Hiệp  
+**MSSV:** 2380600634  
+**Lớp:** 23DATA1  
+
+---
+
+# 🔒 SecureValidator Lab — Phân Tích Lỗ Hổng Bảo Mật
 
 ## 📋 Mục lục
 
