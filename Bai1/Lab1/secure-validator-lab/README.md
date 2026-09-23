@@ -29,19 +29,19 @@
 
 ## Giới thiệu
 
-Dự án **SecureValidator** cung cấp các hàm kiểm tra và lọc đầu vào (input validation & sanitization) bao gồm: email, URL, filename, SQL input và HTML input. Qua quá trình phân tích mã nguồn trong file `securevalidator/core.py` và viết test tấn công trong `tests/test_validators.py`, chúng tôi đã phát hiện **21 lỗ hổng bảo mật** được phân loại theo 5 nhóm chức năng.
+**Lab SecureValidator** cung cấp các hàm kiểm tra và lọc đầu vào (input validation & sanitization) bao gồm: email, URL, filename, SQL input và HTML input. Qua quá trình phân tích mã nguồn trong file `securevalidator/core.py` và viết test tấn công trong `tests/test_validators.py`, chúng tôi đã phát hiện **21 lỗ hổng bảo mật** được phân loại theo 5 nhóm chức năng.
 
 ---
 
 ## Tổng quan lỗ hổng
 
-| STT | Hàm | Số lỗ hổng | Mức độ |
-|-----|------|-----------|--------|
-| 1 | `validate_email()` | 3 | 🟡 Trung bình |
-| 2 | `validate_url()` | 4 | 🔴 Nghiêm trọng |
-| 3 | `validate_filename()` | 3 | 🔴 Nghiêm trọng |
-| 4 | `sanitize_sql_input()` | 9 | 🔴 Rất nghiêm trọng |
-| 5 | `sanitize_html_input()` | 2 | 🟡 Trung bình |
+| STT | Hàm                         | Số lỗ hổng | Mức độ                 |
+|-----|-----------------------------|------------|------------------------|
+| 1   | `validate_email()`          | 3          | 🟡 Trung bình          |
+| 2   | `validate_url()`            | 4          | 🔴 Nghiêm trọng        |
+| 3   | `validate_filename()`       | 3          | 🔴 Nghiêm trọng        |
+| 4   | `sanitize_sql_input()`      | 9          | 🔴 Rất nghiêm trọng    |
+| 5   | `sanitize_html_input()`     | 2          | 🟡 Trung bình          |
 
 ---
 
@@ -537,5 +537,3 @@ Ran 31 tests in 0.001s — OK
 ✅ 10 test chức năng cơ bản (pass — xác nhận hành vi hiện tại)
 ✅ 21 test phát hiện lỗ hổng (pass — chứng minh lỗ hổng tồn tại)
 ```
-
-> **Lưu ý:** Tất cả test lỗ hổng (`test_vuln_*`) đều pass, nghĩa là các lỗ hổng **thực sự tồn tại** trong code hiện tại. Các test này được thiết kế để "pass khi lỗ hổng còn tồn tại" — khi đã sửa code thì test sẽ fail (cần cập nhật test theo logic mới).
