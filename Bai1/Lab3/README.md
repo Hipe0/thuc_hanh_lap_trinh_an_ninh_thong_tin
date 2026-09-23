@@ -1,3 +1,16 @@
+**TRƯỜNG ĐẠI HỌC CÔNG NGHỆ TP HCM**  
+**KHOA CÔNG NGHỆ THÔNG TIN**  
+**Môn:** An toàn web và cơ sở dữ liệu  
+
+---
+
+# BÁO CÁO TUẦN 01
+
+**Họ Và Tên:** Hồ Đắc Hiệp  
+**MSSV:** 2380600634  
+**Lớp:** 23DATA1  
+
+---
 # Phân tích và Khắc phục lỗ hổng Masking PII trong Lab 3
 
 Tài liệu này ghi chú lại quá trình phát hiện, khai thác (bypass) và đề xuất cách khắc phục lỗ hổng trong cơ chế che dấu dữ liệu nhạy cảm (PII Masking) của module `SecureLogger`.
@@ -30,7 +43,7 @@ Gửi một request `POST` đến `/validate` với nội dung Body (JSON) như 
 }
 ```
 
-![Postman Payload](link_anh_postman_o_day)
+![Postman Payload](./images/anh1.png)
 
 ### Kết quả trong file `secure.log`
 Khi mở file log, ta thấy:
@@ -43,7 +56,7 @@ Nhìn vào log, ta dễ dàng nhận thấy:
 - Một phần định danh email (`hacker+`) bị lộ.
 - Mật khẩu (`SuperSecretPassword123`) và Token (`admin_token_xyz_999`) **bị lộ hoàn toàn dưới dạng rõ (plaintext)** thay vì bị đổi thành `<password_masked>`.
 
-![Bypass Log Result](link_anh_log_o_day)
+![Bypass Log Result](./images/anh2.png)
 
 ## 3. Đề xuất khắc phục (Remediation)
 
