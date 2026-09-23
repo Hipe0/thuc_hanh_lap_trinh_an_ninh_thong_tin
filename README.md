@@ -1,2 +1,0 @@
-# thuc_hanh_lap_trinh_an_ninh_thong_tin
-
