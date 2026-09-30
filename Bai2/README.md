@@ -49,7 +49,6 @@ pytest tests/
 
 **Kết quả kiểm thử:**
 ![Kết quả test crypto-toolkit](images/pytest_result.png)
-*(Lưu ý: Có 8 test cases đều `PASSED`, nhiều hơn 6 test so với yêu cầu ban đầu vì đã bổ sung thêm các bài test kiểm tra mã hóa/giải mã bằng mật khẩu và xử lý trường hợp sai mật khẩu).*
 
 ### 1.2. Kiểm thử CLI (Command Line Interface)
 Công cụ hỗ trợ lệnh mã hóa/giải mã từ terminal:
