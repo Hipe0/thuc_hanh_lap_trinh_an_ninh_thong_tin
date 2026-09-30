@@ -1,3 +1,17 @@
+**TRƯỜNG ĐẠI HỌC CÔNG NGHỆ TP HCM**  
+**KHOA CÔNG NGHỆ THÔNG TIN**  
+**Môn:** An toàn web và cơ sở dữ liệu  
+
+---
+
+# BÁO CÁO TUẦN 02
+
+**Họ Và Tên:** Hồ Đắc Hiệp  
+**MSSV:** 2380600634  
+**Lớp:** 23DATA1  
+
+---
+
 # Hướng dẫn Kiểm thử Bài 2 (crypto-toolkit & mini-ca)
 
 Thư mục `Bai2` bao gồm hai dự án thành phần liên quan đến an toàn bảo mật và mật mã học:
