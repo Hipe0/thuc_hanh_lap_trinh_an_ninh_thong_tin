@@ -43,7 +43,7 @@ Gửi một request `POST` đến `/validate` với nội dung Body (JSON) như 
 }
 ```
 
-![Postman Payload](./images/anh1.png)
+![Postman Payload](/Bai1/Lab3/images/anh1.png)
 
 ### Kết quả trong file `secure.log`
 Khi mở file log, ta thấy:
@@ -56,7 +56,7 @@ Nhìn vào log, ta dễ dàng nhận thấy:
 - Một phần định danh email (`hacker+`) bị lộ.
 - Mật khẩu (`SuperSecretPassword123`) và Token (`admin_token_xyz_999`) **bị lộ hoàn toàn dưới dạng rõ (plaintext)** thay vì bị đổi thành `<password_masked>`.
 
-![Bypass Log Result](./images/anh2.png)
+![Bypass Log Result](/Bai1/Lab3/images/anh2.png)
 
 ## 3. Đề xuất khắc phục (Remediation)
 
