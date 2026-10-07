@@ -1,0 +1,4 @@
+flask
+click
+asyncio
+python-dotenv

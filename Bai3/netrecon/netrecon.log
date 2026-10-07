@@ -1,0 +1,270 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.12.24.220:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-066-092
+INFO:werkzeug:127.0.0.1 - - [07/Oct/2026 08:55:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Oct/2026 08:55:48] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Oct/2026 08:55:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:[2026-10-07 08:56:27] Port 80 is open on google.com
+INFO:root:[2026-10-07 08:56:27] Port 443 is open on google.com
+INFO:root:[2026-10-07 08:56:28] Running service detection on google.com:22,80,443
+INFO:werkzeug: * Detected change in 'D:\\HUTECH\\thuc_hanh_lap_trinh_an_ninh_thong_tin\\Bai3\\netrecon\\modules\\service_detector.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-066-092
+INFO:werkzeug: * Detected change in 'D:\\HUTECH\\thuc_hanh_lap_trinh_an_ninh_thong_tin\\Bai3\\netrecon\\modules\\email_sender.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-066-092
+INFO:werkzeug: * Detected change in 'D:\\HUTECH\\thuc_hanh_lap_trinh_an_ninh_thong_tin\\Bai3\\netrecon\\modules\\port_scanner.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-066-092
+INFO:werkzeug: * Detected change in 'D:\\HUTECH\\thuc_hanh_lap_trinh_an_ninh_thong_tin\\Bai3\\netrecon\\modules\\network_mapper.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-066-092
+INFO:werkzeug: * Detected change in 'D:\\HUTECH\\thuc_hanh_lap_trinh_an_ninh_thong_tin\\Bai3\\netrecon\\modules\\vuln_checker.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-066-092
+INFO:werkzeug: * Detected change in 'D:\\HUTECH\\thuc_hanh_lap_trinh_an_ninh_thong_tin\\Bai3\\netrecon\\modules\\banner_grabber.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-066-092
+INFO:root:[2026-10-07 08:59:39] Running service detection on 127.0.0.1:22,80
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\subprocess.py', reloading
+INFO:werkzeug:127.0.0.1 - - [07/Oct/2026 08:59:39] "[35m[1mPOST /scan HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-066-092
+INFO:werkzeug: * Detected change in 'D:\\HUTECH\\thuc_hanh_lap_trinh_an_ninh_thong_tin\\Bai3\\netrecon\\modules\\service_detector.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-066-092
+INFO:werkzeug: * Detected change in 'D:\\HUTECH\\thuc_hanh_lap_trinh_an_ninh_thong_tin\\Bai3\\netrecon\\modules\\network_mapper.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\HUTECH\\thuc_hanh_lap_trinh_an_ninh_thong_tin\\Bai3\\netrecon\\modules\\network_mapper.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-066-092
+INFO:root:[2026-10-07 09:02:37] Port 80 is open on google.com
+INFO:root:[2026-10-07 09:02:37] Port 443 is open on google.com
+INFO:root:[2026-10-07 09:02:38] Running service detection on google.com:22,80,443
+INFO:root:[2026-10-07 09:02:44] Mapping network...
+INFO:root:[2026-10-07 09:02:44] 
+Interface: 192.168.153.1 --- 0x4
+  Internet Address      Physical Address      Type
+  192.168.153.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.1.1 --- 0x8
+  Internet Address      Physical Address      Type
+  192.168.1.255         ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.30.1 --- 0xa
+  Internet Address      Physical Address      Type
+  192.168.30.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.170.1 --- 0x10
+  Internet Address      Physical Address      Type
+  192.168.170.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.31.1 --- 0x12
+  Internet Address      Physical Address      Type
+  192.168.31.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 10.12.24.220 --- 0x17
+  Internet Address      Physical Address      Type
+  10.12.0.254           00-aa-6e-37-de-67     dynamic   
+  10.12.9.130           cc-47-40-a1-7f-a5     dynamic   
+  10.12.25.197          e0-2e-0b-81-5a-0b     dynamic   
+  10.12.26.24           9c-c7-d3-f2-f2-24     dynamic   
+  10.12.26.48           ac-19-8e-6b-e7-a2     dynamic   
+  10.12.32.133          e8-b0-c5-15-fd-b0     dynamic   
+  10.12.35.208          68-34-21-82-5c-44     dynamic   
+  10.12.36.189          38-de-ad-b9-10-db     dynamic   
+  10.12.46.195          ec-91-61-40-52-91     dynamic   
+  10.12.49.106          30-89-4a-5a-24-36     dynamic   
+  10.12.49.204          f4-7b-09-f5-49-48     dynamic   
+  10.12.50.203          cc-47-40-02-3a-bb     dynamic   
+  10.12.51.48           c4-23-60-69-7b-ed     dynamic   
+  10.12.51.135          84-7b-57-d2-30-5c     dynamic   
+  10.12.51.155          d4-54-8b-46-d2-5a     dynamic   
+  10.12.51.230          ac-a7-f1-cd-4f-76     dynamic   
+  10.12.52.58           2c-3b-70-d7-03-1d     dynamic   
+  10.12.52.159          a0-29-42-f4-16-4f     dynamic   
+  10.12.52.211          20-0b-74-51-02-85     dynamic   
+  10.12.52.243          cc-47-40-c3-0e-2c     dynamic   
+  10.12.55.194          a8-41-f4-63-5c-de     dynamic   
+  10.12.62.62           50-5a-65-f7-d7-c1     dynamic   
+  10.12.65.142          f0-68-e3-38-f9-dc     dynamic   
+  10.12.69.90           dc-41-a9-4e-52-af     dynamic   
+  10.12.113.239         2c-ea-fc-ff-43-99     dynamic   
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+INFO:werkzeug:127.0.0.1 - - [07/Oct/2026 09:02:44] "POST /scan HTTP/1.1" 200 -
+INFO:root:[2026-10-07 09:09:12] Port 80 is open on google.com
+INFO:root:[2026-10-07 09:09:12] Port 443 is open on google.com
+INFO:root:[2026-10-07 09:09:13] Running service detection on google.com:22,80,443
+INFO:root:[2026-10-07 09:09:19] Mapping network...
+INFO:root:[2026-10-07 09:09:19] 
+Interface: 192.168.153.1 --- 0x4
+  Internet Address      Physical Address      Type
+  192.168.153.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.1.1 --- 0x8
+  Internet Address      Physical Address      Type
+  192.168.1.255         ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.30.1 --- 0xa
+  Internet Address      Physical Address      Type
+  192.168.30.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.170.1 --- 0x10
+  Internet Address      Physical Address      Type
+  192.168.170.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.31.1 --- 0x12
+  Internet Address      Physical Address      Type
+  192.168.31.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 10.12.24.220 --- 0x17
+  Internet Address      Physical Address      Type
+  10.12.0.254           00-aa-6e-37-de-67     dynamic   
+  10.12.9.130           cc-47-40-a1-7f-a5     dynamic   
+  10.12.41.83           80-b6-55-28-08-0c     dynamic   
+  10.12.52.191          e4-0d-36-31-f0-8d     dynamic   
+  10.12.62.62           50-5a-65-f7-d7-c1     dynamic   
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+INFO:werkzeug:127.0.0.1 - - [07/Oct/2026 09:09:20] "POST /scan HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.12.24.220:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-066-092
+INFO:werkzeug:127.0.0.1 - - [07/Oct/2026 09:13:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Oct/2026 09:13:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:[2026-10-07 09:13:12] Port 80 is open on google.com
+INFO:root:[2026-10-07 09:13:12] Port 443 is open on google.com
+INFO:root:[2026-10-07 09:13:13] Running service detection on google.com:22,80,443
+INFO:root:[2026-10-07 09:13:20] Mapping network...
+INFO:root:[2026-10-07 09:13:20] 
+Interface: 192.168.153.1 --- 0x4
+  Internet Address      Physical Address      Type
+  192.168.153.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.1.1 --- 0x8
+  Internet Address      Physical Address      Type
+  192.168.1.255         ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.30.1 --- 0xa
+  Internet Address      Physical Address      Type
+  192.168.30.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.170.1 --- 0x10
+  Internet Address      Physical Address      Type
+  192.168.170.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.31.1 --- 0x12
+  Internet Address      Physical Address      Type
+  192.168.31.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 10.12.24.220 --- 0x17
+  Internet Address      Physical Address      Type
+  10.12.0.254           00-aa-6e-37-de-67     dynamic   
+  10.12.6.81            cc-47-40-01-d0-e1     dynamic   
+  10.12.9.130           cc-47-40-a1-7f-a5     dynamic   
+  10.12.9.179           98-2c-bc-3e-23-f8     dynamic   
+  10.12.21.137          c0-bf-be-ce-93-62     dynamic   
+  10.12.25.42           a8-59-5f-8c-7e-18     dynamic   
+  10.12.25.117          f4-6d-3f-9b-a6-4f     dynamic   
+  10.12.25.197          e0-2e-0b-81-5a-0b     dynamic   
+  10.12.26.24           9c-c7-d3-f2-f2-24     dynamic   
+  10.12.49.204          f4-7b-09-f5-49-48     dynamic   
+  10.12.51.135          84-7b-57-d2-30-5c     dynamic   
+  10.12.52.40           ec-3a-56-5a-03-0c     dynamic   
+  10.12.53.36           f8-54-f6-3b-ac-e1     dynamic   
+  10.12.62.62           50-5a-65-f7-d7-c1     dynamic   
+  10.12.65.139          14-85-7f-bf-2f-e8     dynamic   
+  10.12.79.109          4c-03-4f-e3-fb-57     dynamic   
+  10.12.113.208         54-6c-eb-c5-35-87     dynamic   
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+INFO:werkzeug:127.0.0.1 - - [07/Oct/2026 09:13:23] "POST /scan HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\HUTECH\\thuc_hanh_lap_trinh_an_ninh_thong_tin\\Bai3\\netrecon\\cli.py', reloading
