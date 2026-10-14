@@ -268,3 +268,6 @@ Interface: 10.12.24.220 --- 0x17
 
 INFO:werkzeug:127.0.0.1 - - [07/Oct/2026 09:13:23] "POST /scan HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in 'D:\\HUTECH\\thuc_hanh_lap_trinh_an_ninh_thong_tin\\Bai3\\netrecon\\cli.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-066-092
