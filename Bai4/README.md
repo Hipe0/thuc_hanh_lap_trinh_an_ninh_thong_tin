@@ -176,7 +176,6 @@ Qua bài thực hành số 4, các khái niệm về bảo mật ứng dụng We
 
 - **Xây dựng trình quét lỗ hổng web** phát hiện 4 lớp lỗ hổng phổ biến (XSS, SQL Injection, CSRF, SSRF) và tổng hợp thành báo cáo trực quan qua giao diện Flask.
 - **Triển khai bộ công cụ bảo mật JWT/OAuth 2.0** bao gồm kiểm tra tính hợp lệ của token, dò khóa yếu, quản lý vòng đời access/refresh token và bảo vệ API endpoint bằng xác thực JWT.
-- **Kiểm thử tự động** đầy đủ cho cả hai dự án: `unittest` đạt **9/9 PASS** và `pytest` đạt **7/7 PASS**, trùng khớp với kết quả mẫu của giáo trình.
 - Hiểu rõ các lỗ hổng phổ biến của JWT (`alg=none`, key confusion, brute force secret yếu, token replay, không kiểm `exp`) và các luồng xác thực của OAuth 2.0.
 
 > Các ảnh chụp kết quả kiểm thử được lưu trực tiếp tại thư mục `Bai4/images/`.
